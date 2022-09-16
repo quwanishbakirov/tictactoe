@@ -1,0 +1,49 @@
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+.box{
+    width: 250px;
+    height: 230px;
+    margin: 0 auto;
+    text-align: center;
+}
+.square {
+    display: none;
+    width: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    grid-template-areas: 
+    "btn1 btn2 btn3"
+    "btn4 btn5 btn6"
+    "btn8 btn8 btn9";
+    grid-row-gap: 0;
+    gap: 0.5cm;
+    justify-items: center;
+    padding-top: 10px;
+}
+#startGame{
+    width: 90px!important;
+}
+.btns {
+    width: 60px;
+    height: 60px !important;
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 0px;
+    cursor: pointer;
+    user-select: none;
+    background-color: azure;
+}
+#click{
+    width: 250px;
+    margin-top: 50px;
+    position: absolute;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
