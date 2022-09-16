@@ -72,5 +72,3 @@ function startGame(){
         }
     }
 }
-function showCongrats(){
-}
